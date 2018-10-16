@@ -117,4 +117,42 @@ nav#menu a {
 
 nav#menu a:hover {
     color: white;
+    text-decoration: underline;
+}
+
+section#corpo {
+    display: block;
+    width: 455px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+aside#lateral {
+    display: block;
+    width: 450px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+
+}
+footer#rodape p {
+    text-align: center;
+}
+.link{
+    text-decoration: none ;
+    color: green;
+}
+.link:hover{
+    color: rgb(89, 0, 255);
+}
+.lin:hover{
+    color: rgb(89, 0, 255);
+}
+.lin{
+    text-decoration: none ;
+    color: green;
 }
