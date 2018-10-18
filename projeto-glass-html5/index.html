@@ -8,12 +8,8 @@
     <title>Tudo sobre Google Glass</title>
     <link rel="stylesheet" href="../projeto-glass-html5/_css/estilo.css">
     <link href="https://fonts.googleapis.com/css?family=Mali|Oswald|Titillium+Web" rel="stylesheet">
+    <script src="./_javascript/funcoes.js"></script>
 </head>
-<script>
-function mudaFoto (foto){
-    document.getElementById("icone").src=foto;
-}
-</script>
 <body>
     <div id="interface">
         <header id="cabecalho">
@@ -26,10 +22,10 @@ function mudaFoto (foto){
                 <h1> Menu Principal</h1>
                 <ul type="disc">
                     <li onmouseover="mudaFoto('../projeto-glass-html5/_imagens/home.png')"  onmouseout="mudaFoto('../projeto-glass-html5/_imagens/glass-oculos-preto-peq.png')"> <a href="index.html"> Home</a> </li>
-                    <li> <a href="specs.html"> Especificações</a> </li>
-                    <li> <a href="fotos.html"> Fotos</a></li>
-                    <li> <a href="multimidia.html"> Multimídia</a></li>
-                    <li> <a href="fale-conosco.html"> Fale conosco</li>
+                    <li onmouseover="mudaFoto('../projeto-glass-html5/_imagens/especificacoes.png')"  onmouseout="mudaFoto('../projeto-glass-html5/_imagens/glass-oculos-preto-peq.png')"> <a href="specs.html"> Especificações</a> </li>
+                    <li onmouseover="mudaFoto('../projeto-glass-html5/_imagens/fotos.png')"  onmouseout="mudaFoto('../projeto-glass-html5/_imagens/glass-oculos-preto-peq.png')"> <a href="fotos.html"> Fotos</a></li>
+                    <li onmouseover="mudaFoto('../projeto-glass-html5/_imagens/multimidia.png')"  onmouseout="mudaFoto('../projeto-glass-html5/_imagens/glass-oculos-preto-peq.png')"> <a href="multimidia.html"> Multimídia</a></li>
+                    <li onmouseover="mudaFoto('../projeto-glass-html5/_imagens/contato.png')"  onmouseout="mudaFoto('../projeto-glass-html5/_imagens/glass-oculos-preto-peq.png')"> <a href="fale-conosco.html"> Fale conosco</li>
                 </ul>
             </nav>
         </header>
